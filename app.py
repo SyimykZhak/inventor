@@ -18,7 +18,6 @@ def add():
     return """
     <h1>Успешно добавлен</h1>
     <a href ='/'>Domoi</a>
-
     """
 
 @app.route('/<test>/')
