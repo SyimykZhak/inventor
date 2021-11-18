@@ -9,6 +9,10 @@
 <body>
     <h1>I am Legend</h1>
     <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, facilis aliquid! Cumque nemo earum, sequi porro nobis consectetur itaque perferendis, harum amet cupiditate commodi quos molestiae laborum delectus! Laboriosam, ipsam!</a>
+    <form action="/add/" method="POST">
+        <input type="text" name="good">
+        <button>Add</button>
+    </form>
     <ol>
         {%for good in goods %}
         <li>{{ good }}</li>

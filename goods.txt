@@ -2,4 +2,5 @@ HONOR
 APPLE
 ONE PLUS
 Samsung
-клавиатура
+клавиатураSony
+Sony
